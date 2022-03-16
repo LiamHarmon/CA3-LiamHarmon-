@@ -40,7 +40,7 @@ public class App
     {
         ArrayList<Student> studentList = new ArrayList<>();
 
-        studentList.add
+        studentList.add()
 
     }
 
