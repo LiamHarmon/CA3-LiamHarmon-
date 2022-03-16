@@ -40,6 +40,8 @@ public class App
     {
         ArrayList<Student> studentList = new ArrayList<>();
 
+        studentList.add
+
     }
 
     //The method below relates to Question 4
