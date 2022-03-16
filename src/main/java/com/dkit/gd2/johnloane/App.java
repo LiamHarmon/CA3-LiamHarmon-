@@ -36,6 +36,12 @@ public class App
         questionFourPartC();
     }
 
+    public static void questionOnePartA()
+    {
+        ArrayList<Student> studentList = new ArrayList<>();
+
+    }
+
     //The method below relates to Question 4
     private static void compareTwoStudents()
     {
