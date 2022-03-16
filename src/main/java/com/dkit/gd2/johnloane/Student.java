@@ -1,5 +1,7 @@
 package com.dkit.gd2.johnloane;
 
+import java.util.Objects;
+
 public class Student
 {
     private int id;
@@ -26,5 +28,18 @@ public class Student
     public int getAge()
     {
         return age;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Student)) return false;
+        Student student = (Student) o;
+        return getId() == student.getId() && getAge() == student.getAge() && Objects.equals(getName(), student.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getName(), getAge());
     }
 }
